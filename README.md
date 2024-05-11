@@ -8,7 +8,7 @@ Image Encryption: Encrypt images using pixel manipulation techniques.
 Image Decryption: Decrypt encrypted images to recover the original image.
 Security: Support for basic encryption algorithms ensures data security.
 Ease of Use: Simple and intuitive command-line interface for easy interaction.
-Usage
+# Usage
 Encrypting an Image:
 
 Provide the path to the image you want to encrypt.
@@ -27,10 +27,10 @@ Copy code
 # git clone https://github.com/your-username/pixel-manipulation-encryption.git
 Install Dependencies:
 
-bash
+# bash
 Copy code
 pip install -r requirements.txt
-Contribution
+# Contribution
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or submit a pull request.
 
 License
