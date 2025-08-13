@@ -1,0 +1,22 @@
+{
+  "name": "rubica-website",
+  "version": "1.0.0",
+  "description": "Rubica.com - A complete classified website with backend and frontend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend:dev\" \"npm run frontend:dev\"",
+    "backend:dev": "cd backend && npm run dev",
+    "frontend:dev": "cd frontend && npm start",
+    "backend:install": "cd backend && npm install",
+    "frontend:install": "cd frontend && npm install",
+    "install-all": "npm run backend:install && npm run frontend:install",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "keywords": ["classified", "website", "nodejs", "react", "express", "mongodb"],
+  "author": "Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
